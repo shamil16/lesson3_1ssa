@@ -12,7 +12,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
         mName=findViewById(R.id.tv_two);
-        String txtName = getIntent().getStringExtra("parametr");
+        String txtName = getIntent().getStringExtra("mName");
         mName.setText(mName.getText().toString()+ " "+txtName);
     }
 }
