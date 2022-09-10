@@ -1,5 +1,7 @@
-<resources>
+    <resources>
     <string name="app_name">lesson3_1</string>
     <string name="Hello_world">Hello world</string>
+    <string name="click">CLICK</string>
+    <string name="this_window">This window</string>
 
-</resources>
+    </resources>
